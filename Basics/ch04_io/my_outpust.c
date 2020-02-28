@@ -30,6 +30,17 @@ int main()
 	printf("%d	%d	%d	%d\n", c1, c2, c3, c4);
 	printf("%d	%d	%d	%d\n", d1, d2, d3, d4);
 
+
+	int a = 0, b = 0, c = 0, d = 0;
+
+	scanf("%d", &a);
+	scanf("%d", &b);
+
+	printf("a + b = %d\n", a + b);
+
+	scanf("%d %d", &c, &d);
+	printf("c * d = %d\n", c*d);
+
 	return 0;
 }
 
